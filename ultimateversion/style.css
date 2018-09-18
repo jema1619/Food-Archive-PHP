@@ -1,0 +1,1325 @@
+body, html {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+    height: 50px;
+}
+
+main {
+    margin: 0;
+    background-color: #f9f9f9;
+    min-height: 89%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#mainindex {
+  padding: 72px 0 56px 0;
+}
+
+/* HEADER STYLE */
+
+#logomenu {
+  font-family: 'Lilita One', cursive;
+    color: #ffffff;
+    padding: 0;
+    font-size: 48px;
+    line-height: 49px;
+}
+
+header > ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    background-color: #8fa84e;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header > ul > li {
+    float: left;
+}
+
+.signuplink {
+  float: right;
+}
+
+.signup_required {
+    color: red;
+    font-size: 21px;
+}
+
+#signbackground {
+    background-color: lightgray;
+}
+
+header > ul > li a {
+    display: block;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+ 
+header > ul > li a:hover {
+    text-decoration: underline;
+}
+
+
+.active {
+    font-weight: bold;
+ }
+
+
+/* THE SEARCHBAR  */ 
+
+.search {
+  text-align: center;
+}
+
+
+
+.search > input[type=text] {
+    width: 313px;
+    box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+    border-radius: 19px;
+    font-size: 14px;
+    padding: 11px 20px 11px 17px;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(img/search-icon.png);
+    background-position: 268px 8px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#inputlink {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    width: 52px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+#inputlink:hover {
+    cursor: pointer;
+}
+
+/*
+ FOOD ARCHIVE LOGO 
+ */
+ #maincontainer {
+     
+ }
+ 
+#topdiv {
+    margin: 12px 0 111px 0;
+    position: relative;
+    z-index: 1;
+    padding: 107px 0;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+    color: #8fa84e;
+    text-transform: uppercase;
+    font-size: 111px;
+    line-height: 91px;
+    margin: 2px 0;
+}
+
+h2 {
+  font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    color: #c7c7c7;
+    font-size: 33px;
+    font-weight: 100;
+    text-transform: lowercase;
+    margin: 5px 0 11px 0;
+}
+
+#firstpageartl {
+    overflow: hidden;
+}
+
+.left-div {
+    height: 320px;
+    width: 60%;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.right-div {
+    height: 320px;
+    display: table;
+    width: 40%;
+    padding: 41px;
+    background-color: #f3f3e7;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.index_link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+
+.even {
+     background-color: white;
+}
+
+
+.img-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.h3-text {
+    font-family: 'Raleway';
+    font-size: 42px;
+    color: rgba(64, 64, 64, 1);
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.ratingStar {
+    font-size: 38px;
+    color: #b9b9b9;
+}
+/* RATING */
+.stars {
+overflow: hidden;
+align-items: left;
+margin-bottom: 4px;
+width: 159px;
+}
+
+.rating input { 
+    display: none;
+}
+
+.rating > label {
+    float: right;
+}
+
+.nothover:hover {
+    color: #b9b9b9;
+}
+    
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label 
+    { color: #FFD700;  } 
+
+.rating .hover {
+    pointer-events: none;
+}
+
+
+/* SEARCH FOR RECIPES PAGE */
+.find {
+  overflow: hidden;
+  padding-left: 24px;
+}
+
+#grid2 {
+  display: block;
+  margin: 0;
+}
+
+#leftsidebar {
+  float: left;
+    width: 20%;
+    margin: 0;
+    height: 100%;
+    padding: 22px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+#filtersearch {
+  width: 100%;
+    padding: 10px;
+    border: 1px solid #8fa84e;
+    font-size: 14px;
+    font-family: raleway;
+}
+
+.searchpage-btn {
+    padding: 11px;
+    background: #8fa84e;
+    border: 1px solid #8fa84e;
+    color: white;
+    margin-top: 44px;
+    width: 100%;
+    font-size: 15px;
+    font-family: raleway;
+    font-weight: 500;
+}
+
+
+.chooseoption-searchpage {
+    border: 1px solid #8fa84e;
+    width: 100%;
+    font-family: raleway;
+    font-size: 14px;
+    padding: 0 5px;
+    height: 38px;
+    margin: 25px 0 16px 0;
+}
+
+.pure-checkbox {
+    display: inline-flex;
+    font-family: raleway;
+    font-size: 14px;
+    margin: 9px 3px;
+}
+
+input[type="checkbox"] {
+      width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#maincontainer {
+    margin: 0;
+    width: 80%;
+    float: right;
+    box-sizing: border-box;
+    padding: 72px 6px 56px 6px;
+    background-color: #FAFAEF;
+}
+
+.rightdiv_rcp {
+    margin: 0;
+    float: right;
+    width: 80%;
+}
+
+#rightdiv {
+    overflow: hidden;
+}
+
+.recipescontainer {
+    width: 25%;
+    float: left;
+    height: 291px;
+    padding: 24px 24px 0 0;
+    box-sizing: border-box;
+    margin: 0px;
+    position: relative;
+}
+
+.upper-div {
+    height: 60%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.lower-div {
+    height: 40%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+    font-size: 22px;
+    color: #616161;
+    display: inherit;
+    font-family: raleway;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.onercp-link{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    bottom: 0;
+    right: 23px;
+}
+
+.type {
+        position: absolute;
+    bottom: 6px;
+    right: 41px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #f1f0f0;
+    background-color: #f9f9f9;
+    font-family: raleway;
+    font-size: 12px;
+    color: #424242;
+}
+
+/* SINGLE RECIPE PAGE */
+
+.maincontainer_one {
+    padding: 47px; 
+    position: relative;
+}
+
+.onerecipe-background {
+    min-height: 81%;
+}
+
+.h4_onercp {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.icon_containter_onercp {
+    position: absolute;
+    top: 46px;
+    right: 6em;
+}
+
+.icon_img_onercp {
+    width: 20px;
+    margin: 6px 0 -5px 0;
+}
+
+.icon_text_onercp {
+    font-family: raleway;
+    font-size: 13px;
+}
+
+.favlink-onercp {
+    text-decoration: none;
+    color: black;
+}
+
+.div_img_onercp {
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.imgaside_onercp {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+}
+
+.bigimg_onercp {
+    width: 100%;
+    image: cover;
+}
+
+.article_onercp {
+    width: 60%;
+    float: right;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.ingredients-onercp {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    border-right: 1px solid #c7c7c7;
+    min-height: 43%;
+}
+
+.ingredients-onercp > p {
+    font-family: raleway;
+    font-size: 13px;
+   white-space: pre-line;
+    line-height: 22px;
+}
+
+
+.description-onercp {
+    float: right;
+    width: 70%;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+
+
+.description-onercp > p {
+    font-size: 13px;
+    font-family: raleway;
+    line-height: 18px;
+    white-space: pre-line;
+}
+
+/* ADD RECIPE -ONLY USERS-*/
+.content_addrcp {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+}
+
+.form_rcp{
+    width: 65%;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 1px solid #cbcbcb;
+    margin: 12px 0;
+}
+
+#addimgdiv-addrcp {
+    display: block;
+    overflow: auto;
+    margin: 22px 0;
+}
+
+legend {
+    font-family: raleway;
+    padding: 0 7px;
+}
+
+.inputtitle_addrcp {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #8fa84e;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+select {
+    border: 1px solid #8fa84e;
+    width: 100%;
+    font-family: raleway;
+    font-size: 16px;
+    padding: 0 5px;
+    height: 39px;
+    margin: 25px 0 9px 0;
+}
+
+.checkbox_addrcp {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.file_addrcp {
+    display: block;
+    margin: 22px 0;
+}
+
+.textcontainer_addrcp {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.inputtext_addrcp {
+    width: 100%;
+    font-family: sans-serif;
+    height: 121px;
+    border: 2px solid #8fa84e;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.submitbtn_addrcp {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    border: none;
+    background-color: #8fa84e;
+}
+
+.submitbtn_addrcp:hover {
+    cursor: pointer;
+    background-color: #aac564;
+}
+
+ .congrats-div > h5 {
+    font-size: 37px;
+    font-family: raleway;
+    margin: 0;
+    text-align: center;
+    font-weight: 200;
+    color: #8fa84e;
+    position: absolute;
+    left: 38%;
+    top: 34%;
+}
+
+
+.congrats-div a {
+    position: absolute;
+    left: calc(53% - 111px);
+    color: gray;
+    bottom: 43%;
+    text-decoration: none;
+    font-family: raleway;
+    padding: 22px;
+    border: 1px solid gray;
+    transition-duration: 0.3s;
+}
+
+.congrats-div a:hover {
+    background-color: #8fa84e;
+    color: white;
+    border-color: white;
+}
+
+.congrats-div {
+    height: 81%;
+    position: relative;
+}
+/* CONTACT PAGE */
+
+#contact-background{
+    height: 81%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.h4 {
+    font-weight: 100;
+    padding: 3px 22px;
+    margin: 0px 0 14px 0;
+    font-size: 117px;
+    color: #8fa84e;
+    font-family: 'Raleway', cursive;
+    text-transform: lowercase;
+}
+
+.contactform {
+    margin: 0 auto;
+    border: solid 1px gray;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 18%;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.inputcontact, textarea {
+    margin-top: 5px;
+    padding: 7px;
+    width: 100%;
+    
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+
+.submit {
+    width: 32%;
+    float: right;
+    padding: 9px;
+    margin: 15px auto;
+    font-family: raleway;
+    font-size: 17px;
+    display: block;
+    background-color: #8fa84e;
+    color: white;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #a3c156;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.submit2 {
+    padding: 9px;
+    background: #8fa84e;
+    border: 1px solid #8fa84e;
+    color: white;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 500;
+}
+
+.submit2:hover {
+    background-color: #769034;
+    cursor: pointer;
+}
+
+.submit2:active {
+    background-color: #badc61;
+    color: gray;
+}
+
+/* MY PAGE */
+
+.background {
+  /* The image used */
+  background-image: url("img/pexels-photo-64208.jpeg");
+
+    /* Full height */
+    height: 94%; 
+
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#myp-maincontainer {
+  position: absolute;
+    top: 9%;
+    left: 9%;
+    right: 9%;
+}
+
+.mp-four {
+  float: left;
+    text-align: center;
+    margin: 11px;
+    width: 47.5%;
+    padding: 8% 0;
+    box-sizing: border-box;
+    background-color: rgba(217, 215, 224, 0);
+    border: 4px solid white;
+}
+
+.mp-four:hover {
+  cursor: pointer;
+    border: 4px solid #8fa84e;
+    background-color: #8fa84e;
+    transition: 0.4s;
+
+}
+
+.mp-link {
+    text-decoration: none;
+    font-family: Lilita One;
+    font-weight: 200;
+    font-size: 53px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.mp_div_not {
+    padding: 5%;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    right: 35%;
+    background-color: rgb(143, 168, 78);
+    z-index: 1;
+}
+
+.mp_h4_not {
+        margin: 4px 0;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: raleway;
+    font-weight: 500;
+    text-transform: inherit;
+}
+
+.mp_p_not {
+    font-size: 16px;
+    font-family: Raleway;
+    color: white;
+    font-weight: 200;
+    margin: 2px;
+}
+
+.mp_login_link {
+    text-align: center;
+    margin: 28px 0 0 0;
+}
+
+.mp_login_link > a {
+    text-decoration: none;
+    color: white;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 21px;
+    padding: 6px 25px;
+    border: 1px solid white;
+    text-transform: lowercase;
+}
+
+.mp_login_link > a:hover {
+        background-color: #859c49;
+}
+
+
+
+/* MY RECIPES PAGE */
+
+.mr-searchcontainer {
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+
+.mytype {
+    bottom: 31px;
+}
+
+.myrcp-editlink {
+    position: absolute;
+    bottom: 23px;
+    left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #bdbdbd;
+    font-family: raleway;
+}
+
+.myrcp-editlink:hover {
+    color: black;
+}
+
+/* FORUM */
+.admin_forum {
+    width: 35%;
+}
+
+
+.forum-maindiv {
+    padding: 0;
+    margin: 0;
+}
+
+.forum_aside {
+    width: 20%;
+    float: left;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.forum_aside ul {
+    padding: 0 3%;
+    margin: 0;
+} 
+
+.forumli {
+    list-style: none;
+    font-family: raleway;
+    border: 2px solid #f9f9f9;
+    color: white;
+    background-color: #8fa84e;
+    position: relative;
+}
+
+.ask_question {
+    padding: 22px;
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.deleteforum {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.erase {
+    position: unset;
+    text-align: right;
+}
+
+.forumli a {
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    display: block;
+}
+
+.myforum_ {
+    width: 70%;
+}
+
+.forumli:hover {
+    cursor: pointer;
+    background-color: #769034;
+}
+
+.forumdiv {
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.forum_h2 {
+    font-family: Raleway;
+    text-align: center;
+    color: #c7c7c7;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 77px 0;
+    margin: 0;
+}
+
+.forum_img {
+   display: block;
+    margin: 0 auto;
+    opacity: 0.1;
+}
+    
+.forum_innerdiv {
+    padding: 0;
+    background-color: white;
+    border-top: solid 3px #f9f9f9;
+    margin: 2px 0;
+    position: relative;
+    }
+    
+#forum-form {
+    padding: 30px;
+    margin: 0;
+}
+
+#forum-form > textarea {
+    border: 1px solid #8fa84e;
+    width: 69%;
+    margin-left: 19%;
+    margin-top: 22px;
+}
+
+#forum-form > input {
+        padding: 10px;
+    float: right;
+    background: #8fa84e;
+    border: 1px solid #8fa84e;
+    color: white;
+    margin: 28px 0px;
+    width: 11%;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 500;
+}
+
+#forum-form > input:hover {
+      background-color: #769034;
+      cursor: pointer;
+}
+    
+    .forum_h5 {
+    font-size: 26px;
+    font-family: raleway;
+    font-weight: 500;
+    color: #8fa84e;
+    margin: 0;
+    padding: 11px 0 0 11px;
+    }
+    
+.forum_date {
+        font-size: 13px;
+        font-family: raleway;
+        margin: 0 13px;
+        position: absolute;
+        top: 11px;
+        right: 0;
+        color: #b1b1b1;
+    }
+
+.forum_link {
+    top: 33px;
+    text-decoration: none;
+    color: red;
+}
+
+.forum_link:hover {
+    text-decoration: underline;
+}
+    
+.forum_content_text {
+        padding: 12px;
+        font-size: 16px;
+        font-family: raleway;
+        margin: 0;
+    }
+
+
+
+footer {
+    height: 101px;
+    background-color: #8fa84e;
+    text-align: center;
+}
+
+.h1-footer {
+    font-family: 'Lilita One', cursive;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.copyright {
+        font-family: raleway;
+    color: white;
+    font-size: 12px;
+    margin: 22px 0 0 0;
+}
+
+#footerleft {
+        float: left;
+    margin-left: 44px;
+    padding: 19px 0 0 22px;
+    box-sizing: border-box;
+}
+
+#footerright {
+    float: right;
+    height: 100%;
+}
+
+#footerright ul {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 15px;
+    margin: 34px 69px;
+}
+
+#footerright ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+
+
+
+
+.ratingstar {
+    cursor: pointer;
+}
+
+.ratingstar:hover ~ .ratingstar, .ratingstar:hover {
+    color: gold;
+    order: ltr;
+}
+
+
+/* ADMIN LOG IN PAGE*/
+
+.adminform {
+    width: 23%;
+    margin: 0 auto;
+    padding: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.adminform > .admin-fieldset > input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.admin-fieldset {
+        padding: 22px;
+}
+
+#admin-btn {
+    margin: 0 auto;
+    width: 50px;
+    border-radius: 27px;
+    padding: 12px;
+    font-size: 17px;
+    font-family: raleway;
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0,0,0);
+    color: black;
+    display: block;
+}
+
+#admin-btn:hover {
+    cursor: pointer;
+    color: #fffffe;
+    background-color: #8fa84e;
+    border: 1px solid #798a4c;
+}
+
+#admin-btn:active {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* ADMIN WELCOME */
+
+.outer {
+    display: table;
+    min-height: 90%;
+    background-color: #8fa84e;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.log {
+    font-family: raleway;
+    text-align: center;
+    width: 50%;
+    color: #ffffff;
+    font-size: 39px;
+    border: 3px solid #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.admin-addrcp-figure {
+    position: relative;
+}
+
+.admin-addrcp {
+    width: 84%;
+    position: absolute;
+    bottom: 20%;
+    left: 25px;
+    background-color: #8fa84e;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+
+}
+
+.admin-addrcp:hover {
+    background-color: #7a903f;
+}
+
+.admin-addrcp > a{
+    transition-duration:  0.3s;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 23px;
+    color: white;
+    line-height: 54px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    font-family: raleway;
+}
+
+.admin-article {
+    position: relative;
+}
+
+.admin-deletercp-p {
+    text-align: -webkit-center;
+    position: absolute;
+    font-family: raleway;
+    margin: 0;
+    bottom: 0;
+    height: 9%;
+    left: 0;
+    right: 24px;
+}
+
+.p2 {
+    bottom: 9%;
+}
+
+.admin-deletercp-p > a {
+    color: grey;
+    text-decoration: none;
+    position: absolute;
+    padding: 3% 1%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition-duration: 0.3s;
+}
+
+.admin-deletercp-p > a:hover {
+    background-color: red;
+    color: white;
+}
+
+.p2 > a:hover {
+    background-color: #cacaca;
+}
+
+.sure_div {
+        padding-top: 11%;
+}
+
+.h2_sure {
+    font-family: raleway;
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px 0 11px 0;
+    margin: 0;
+}
+
+.admin-yesno {
+    width: 9%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: raleway;
+    background-color: #e6e6e6;
+}
+
+.deletercp_div {
+    width: 31%;
+    margin: 0 auto;
+}
+
+.delete-go {
+    border: 1px solid #a0a0a0;
+    padding: 11px;
+    width: 44%;
+    margin: 11px auto;
+    font-size: 14px;
+    text-decoration: none;
+    color: #777777;
+    float: left;
+    transition-duration: 0.3s;
+}
+
+.delete-go:hover {
+    background-color: #8fa84e;
+    color: white;
+    border-color: white;
+}
+
+.no {
+    float: right;
+}
+
+.delete-sure-submit {
+    display: block;
+    margin: 17px auto 0;
+    padding: 6px 16px;
+    font-family: raleway;
+}
+
+.admin-deleteuser-h2 {
+    font-family: raleway;
+    color: #8fa84e;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+    padding: 32px 0 0 0;
+    text-transform: capitalize;
+}
+
+
+.admin-usertable {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.admin-usertable, td {
+    border: 1px solid black;
+    padding: 7px 24px;
+}
+
+.admin-usertable  td {
+    padding-right: 22px;
+}
+
+.admin-usertable tr {
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.admin-usertable td a {
+    text-decoration: none;
+    color: red;
+}
+
+.admin-usertable td a:hover {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15.5px;
+}
+
+.admin-deleteuser:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+
+/* ADMIN RECIPES */
+
+.adminarticle {
+    height: 320px;
+}
+
+.admineditlink {
+    bottom: 48px;
+    left: 15px;
+}
+
+.admingoback {
+    border: 1px solid #a0a0a0;
+    padding: 11px;
+    display: block;
+    width: 13%;
+    margin: 11px auto;
+    font-size: 14px;
+    text-decoration: none;
+    color: #777777;
+    transition-duration: 0.3s;
+}
+
+.admingoback:hover {
+    background-color: #8fa84e;
+    color: white;
+    border-color: white;
+}
+/* 
+    Created on : 2017-okt-07, 10:29:03
+    Author     : Marina
+*/
+
