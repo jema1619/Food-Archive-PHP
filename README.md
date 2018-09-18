@@ -7,6 +7,8 @@ to have access to other functions, but anyone can search the database. The platf
 comments and recipies can be createdm edited or deleted.
 
 Built With PHP, MySQL and standard HTML5 & CSS.
+
+
 Go to Wiki to see pictures.
 
 
